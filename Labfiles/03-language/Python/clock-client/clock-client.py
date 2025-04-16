@@ -5,6 +5,8 @@ from datetime import datetime, timedelta, date, timezone
 from dateutil.parser import parse as is_date
 
 # Import namespaces
+from azure.ai.language.conversations import AzureKeyCredential
+from azure.ai.language.conversations import ConversationAnalysisClient
 
 
 def main():
